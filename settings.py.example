@@ -1,0 +1,14 @@
+LISTEN_ON = dict(host='0.0.0.0', port=6547)
+
+IOS_TEAM_CHAT = 'https://hooks.slack.com/services/***'
+ANDROID_TEAM_CHAT = 'https://hooks.slack.com/services/***'
+
+IOS_MAILLIST = dict(
+    mail_to='vasily@pupkin.com',
+    mail_from=('Processor', 'robot@pupkin.com'),
+    host='smtp.yandex.ru',
+    user='robot@pupkin.com',
+    password='******',
+    port=465,
+    ssl=True,
+)
